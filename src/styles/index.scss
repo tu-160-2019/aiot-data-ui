@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Alibaba-PuHuiTi-B';
+  src: url('./fonts/Alibaba-PuHuiTi/Alibaba-PuHuiTi-Bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alibaba-PuHuiTi-H';
+  src: url('./fonts/Alibaba-PuHuiTi/Alibaba-PuHuiTi-Heavy.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alibaba-PuHuiTi-L';
+  src: url('./fonts/Alibaba-PuHuiTi/Alibaba-PuHuiTi-Light.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alibaba-PuHuiTi-M';
+  src: url('./fonts/Alibaba-PuHuiTi/Alibaba-PuHuiTi-Medium.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+//
+@font-face {
+  font-family: 'Alibaba-PuHuiTi-R';
+  src: url('./fonts/Alibaba-PuHuiTi/Alibaba-PuHuiTi-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'YouSheBiaoTiHei';
+  src: url('./fonts/YouSheBiaoTiHei/YouSheBiaoTiHei.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import './variables.scss';
+@import './layout.scss';
+@import './element.scss';
+@import './theme.scss';
+@import './dark.scss';
