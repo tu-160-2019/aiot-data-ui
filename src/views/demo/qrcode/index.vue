@@ -21,7 +21,7 @@
 import { ref } from 'vue'
 import QrcodeVue from 'qrcode.vue'
 
-const value = ref('https://zrxlh.top')
+const value = ref('https://xxx.top')
 const size = ref(200)
 const color = ref('#000000')
 </script>
