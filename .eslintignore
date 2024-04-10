@@ -17,6 +17,5 @@ bin
 build
 config
 index.html
-components.d.ts
 element.d.ts
 src/assets

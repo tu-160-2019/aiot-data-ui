@@ -1,0 +1,17 @@
+{
+  "globals": {
+    "ref": true,
+    "reactive": true,
+    "ElLoading": true,
+    "ElMessage": true,
+    "ElMessageBox": true,
+    "toRaw": true,
+    "watch": true,
+    "defineComponent": true,
+    "nextTick": true,
+    "getCurrentInstance": true,
+    "useStorage": true,
+    "computed": true,
+    "onMounted": true
+  }
+}

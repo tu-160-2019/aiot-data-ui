@@ -7,16 +7,19 @@
     "moduleResolution": "node",
     "strict": true,
     "jsx": "preserve",
-//    "allowJs": true,
+    "allowJs": true,
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
     "lib": ["esnext", "dom"],
     "types": [
       "web-bluetooth",
       "vite/client"
     ],
+    "skipLibCheck": true,
     "paths": {
       "@/*": ["./src/*"]
     },
@@ -24,6 +27,7 @@
       "types": ["vite-plugin-svg-icons/client"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
-  "exclude": ["node_modules"]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/**/*.d.ts"],
+//  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "dist", "**/*.js"]
 }
