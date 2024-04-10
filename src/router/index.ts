@@ -50,7 +50,51 @@ const asyncRoutes: RouteRecordRaw = {
 				title: i18n.global.t('router.profilePassword'),
 				cache: true
 			}
-		}
+		},
+    {
+      path: '/devicesDetail/:id',
+      name: 'devicesDetail',
+      hidden: true,
+      props: true,
+      component: () => import('../views/iot/equipment/devices/detail.vue'),
+      meta: {
+        title: '设备详情',
+        cache: false
+      }
+    },
+    {
+      path: 'deviceGroupDetail/:id',
+      name: 'deviceGroupDetail',
+      hidden: true,
+      props: true,
+      component: () => import('../views/iot/equipment/devices/deviceGroupDetail.vue'),
+      meta: {
+        title: '分组详情',
+        cache: false
+      }
+    },
+    {
+      path: 'pluginDetail/:id',
+      name: 'pluginDetail',
+      hidden: true,
+      props: true,
+      component: () => import('../views/iot/plugins/detail.vue'),
+      meta: {
+        title: '插件详情',
+        cache: false
+      }
+    },
+    {
+      path: 'virtualDeviceConfig/:id',
+      name: 'virtualDeviceConfig',
+      hidden: true,
+      props: true,
+      component: () => import('../views/iot/equipment/devices/virtualDeviceConfig.vue'),
+      meta: {
+        title: '虚拟设备配置',
+        cache: false
+      }
+    }
 	]
 }
 
@@ -109,7 +153,15 @@ export const errorRoute: RouteRecordRaw = {
 
 export const router = createRouter({
 	history: createWebHashHistory(),
-	routes: constantRoutes
+	routes: constantRoutes,
+	// 刷新时，滚动条位置还原
+	scrollBehavior(to, from, savedPosition) {
+		if (savedPosition) {
+			return savedPosition
+		} else {
+			return { top: 0 }
+		}
+	}
 })
 
 // 白名单列表
