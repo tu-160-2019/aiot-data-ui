@@ -18,7 +18,7 @@
         </el-upload>
       </div>
       <div style="font-size: 20px; font-weight: bold; margin-left: 20px; margin-top: 40px;">
-        图像内容检测，支持头盔、交通标志、车牌识别、人、自行车、汽车、摩托车、刀、水果、花等
+        安全帽检测
       </div>
     </div>
     <div style="display: flex;">
