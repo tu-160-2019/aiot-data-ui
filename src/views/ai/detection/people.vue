@@ -18,7 +18,8 @@
         </el-upload>
       </div>
       <div style="font-size: 20px; font-weight: bold; margin-left: 20px; margin-top: 40px;">
-        图像内容检测、交通标志、人、自行车、汽车、摩托车、刀、水果、花等
+        图像内容检测、交通标志、人、自行车、汽车、摩托车、刀、水果、花等 <br>
+        <p style="color: red;">想要效果好，需要自行提供高质量数据集进行二次训练</p>
       </div>
     </div>
     <div style="display: flex;">

@@ -18,8 +18,8 @@
         </el-upload>
       </div>
       <div style="font-size: 20px; font-weight: bold; margin-left: 20px; margin-top: 40px;">
-        安全帽检测 <br>
-        <p style="color: red;">想要效果好，需要自行提供高质量数据集进行二次训练</p>
+        烟火检测.
+        <br> <p style="color: red;">想要效果好，需要自行提供高质量数据集进行二次训练</p>
       </div>
     </div>
     <div style="display: flex;">
@@ -56,14 +56,14 @@ export default {
       file: {},
       originFile: "",
       resultFile: "",
-      uploadFileUrl: import.meta.env.VITE_API_URL + "/aidet/yolo7", // 上传的图片服务器地址
+      uploadFileUrl: import.meta.env.VITE_API_URL + "/aidet/fireSmoke", // 上传的图片服务器地址
       form: {
         imageFile: "",
         headers: {
           Authorization: store.userStore.token
         },
         url:
-          import.meta.env.VITE_API_URL + "/aidet/yolo7",
+          import.meta.env.VITE_API_URL + "/aidet/fireSmoke",
       },
       //快捷生成
       content: {},
