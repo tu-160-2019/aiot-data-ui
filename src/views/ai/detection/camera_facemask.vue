@@ -18,8 +18,8 @@
         </el-upload>
       </div>
       <div style="font-size: 20px; font-weight: bold; margin-left: 20px; margin-top: 40px;">
-        图像内容检测、交通标志、人、自行车、汽车、摩托车、刀、水果、花等 <br>
-        <p style="color: red;">想要效果好，需要自行提供高质量数据集进行二次训练</p>
+        检测摄像头视频中的口罩
+        <br> <p style="color: red;">想要效果好，需要自行提供高质量数据集进行二次训练</p>
       </div>
     </div>
     <div style="display: flex;">
@@ -52,14 +52,14 @@ export default {
       file: {},
       originFile: "",
       resultFile: "",
-      uploadFileUrl: import.meta.env.VITE_API_URL + "/aidet/yolo8", // 上传的图片服务器地址
+      uploadFileUrl: import.meta.env.VITE_API_URL + "/aidet/cameraFacemask", // 上传的图片服务器地址
       form: {
         imageFile: "",
         headers: {
           Authorization: store.userStore.token
         },
         url:
-          import.meta.env.VITE_API_URL + "/aidet/yolo8",
+          import.meta.env.VITE_API_URL + "/aidet/cameraFacemask",
       },
       //快捷生成
       content: {},

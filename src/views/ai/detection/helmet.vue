@@ -43,10 +43,6 @@
 import store from '@/store'
 import cache from '@/utils/cache'
 
-console.log('---------token1------------')
-console.log(cache.getToken())
-console.log('---------token2------------')
-console.log(store.userStore.token)
 export default {
   name: "helment",
   dicts: [],
