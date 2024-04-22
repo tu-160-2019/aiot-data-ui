@@ -6,6 +6,7 @@
         <el-upload ref="upload"
                    :action="uploadFileUrl"
                    :headers="form.headers"
+                   multiple
                    :auto-upload="true" :disabled="false" :limit="1"
                    :on-change="fileUploadChanges" :on-progress="handleFileUploadProgress"
                    :on-success="handleFileSuccess"
@@ -18,7 +19,7 @@
         </el-upload>
       </div>
       <div style="font-size: 20px; font-weight: bold; margin-left: 20px; margin-top: 40px;">
-        检测摄像头视频中的口罩
+        目前后台仅供参考，前端页面暂时还未处理。有兴趣的看看代码即可实现
         <br> <p style="color: red;">想要效果好，需要自行提供高质量数据集进行二次训练</p>
       </div>
     </div>
@@ -77,22 +78,22 @@ export default {
     },
     // 文件上传中处理
     handleFileUploadProgress(event, file, fileList) {
-      this.form.isUploading = true;
+      this.form.isUploading = true
     },
     // 文件上传成功处理
     handleFileSuccess(response, file, fileList) {
-      this.$refs.upload.clearFiles();
-      this.originFile = response.data.origin;
-      this.resultFile = response.data.result;
+      this.$refs.upload.clearFiles()
+      this.originFile = response.data.origin
+      this.resultFile = response.data.result
       console.log("handleFileSuccess", response)
     },
     //文件状态改变
     fileUploadChanges(file, fileList) {
       this.file = file
       console.log("fileUploadChanges", file)
-    },
-  },
-};
+    }
+  }
+}
 </script>
 <style lang="scss" scoped>
 .disply {
