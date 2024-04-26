@@ -33,3 +33,21 @@ AIOT人工智能物联网平台是一站式物联网开发基础平台，帮助�
 2、前端组件不存在错误提示，不用担心，登录系统后在系统菜单中删除这些菜单即可，不影响系统
 ![输入图片说明](images/2621.jpg)
 
+
+## 鸣谢声明
+
+该项目使用借鉴了以下优秀开源项目的源码进行改造集成，特此鸣谢声明。
+
+**数据平台**
+
+[数睿通数据中台](https://gitee.com/zrxjava/srt-data-center)
+
+**物联网**
+
+[铱塔智联](https://gitee.com/open-iita/iotkit-parent)
+
+
+**车牌检测**
+
+[车牌检测](https://github.com/we0091234/Chinese_license_plate_detection_recognition)
+
