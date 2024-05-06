@@ -74,7 +74,6 @@ const submitHandle = () => {
   //   //
   //   console.log(res)
   // })
-
   console.log("submitHandle", aigcForm)
   return service.post('/aidet/text2img', aigcForm,{
     headers: {
@@ -85,7 +84,6 @@ const submitHandle = () => {
     console.log(res)
   })
 }
-
 // export const fromSubmit = (dataForm: any) => {
 //   return service.post('/aidet/text2img', dataForm,{
 //     headers: {
