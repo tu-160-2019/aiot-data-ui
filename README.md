@@ -16,15 +16,25 @@ AIOT人工智能物联网平台是一站式物联网开发基础平台，帮助�
 
 
 ## 系统部分截图
+![alt text](https://gitee.com/wangmingf83/aiot-data/raw/master/images/iot1.jpg)
 
-![输入图片说明](images/AI1.jpg)
-![输入图片说明](images/ai93227.jpg)
-  AI功能
+![alt text](https://gitee.com/wangmingf83/aiot-data/raw/master/images/iot2.jpg)
 
+![alt text](https://gitee.com/wangmingf83/aiot-data/raw/master/images/data1.jpg)
+
+![alt text](https://gitee.com/wangmingf83/aiot-data/raw/master/images/data2.jpg)
+
+![alt text](https://gitee.com/wangmingf83/aiot-data/raw/master/images/AI1.jpg)
+
+![alt text](https://gitee.com/wangmingf83/aiot-data/raw/master/images/ai93227.jpg)
+
+![alt text](https://gitee.com/wangmingf83/aiot-data/raw/master/images/screen1.jpg)
+
+![alt text](https://gitee.com/wangmingf83/aiot-data/raw/master/images/screen2.jpg)
 
 
 ## 微信群(添加我微信备注"进群"):
-![输入图片说明](images/webchat.png)
+![alt text](https://gitee.com/wangmingf83/aiot-data/raw/master/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240325121359.png)
 
 
 ## FAQ:
